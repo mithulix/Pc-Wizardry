@@ -1,0 +1,592 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "image": "https://www.startech.com.bd/image/cache/catalog/casing/corsair/470t-rgb/470t-rgb-500x500.jpg",
+      "productName": "Corsair 470T RGB Mid-Tower Gaming Casing",
+      "category": "Others",
+      "status": "In Stock",
+      "price": 40,
+      "description": "The CORSAIR 470T RGB is a distinctive mid-tower ATX case with a spacious interior, striking RGB style, and great cooling. Combining a spacious interior, striking RGB style, and proven CORSAIR build quality, the 470T RGB is a great choice for your new high-performance PC. Offers sharp looks accented by an integrated RGB light strip, with mesh backing for strong intake airflow. Fits up to 7x 120mm or 4x 140mm cooling fans, along with multiple radiators including a 360mm in front or in the roof. Puts your connections within easy reach, including 2x USB 3.0 ports, a microphone jack, an audio jack, and push-button control of your front panel RGB lighting. Show off your high-profile components and RGB lighting.",
+      "keyFeatures": [
+        {
+          "keyName": "Model",
+          "value": "Corsair 470T RGB"
+        },
+        {
+          "keyName": "MPN",
+          "value": "CC-9011215-WW"
+        }
+      ],
+      "individualRating": 4,
+      "averageRating": 4,
+      "reviews": 5
+    },
+    {
+      "id": 2,
+      "image": "https://www.startech.com.bd/image/cache/catalog/monitor/msi/pro-mp242c/pro-mp242c-01-200x200.webp",
+      "productName": "MSI PRO MP242C 23.6 FHD Curved Monitor with Built-in Speakers",
+      "category": "Monitor",
+      "status": "In Stock",
+      "price": 400,
+      "description": "The Colorful GeForce RTX 3060 NB DUO 8GB-V Graphics Card is powered by the award-winning NVIDIA Turing architecture, bringing superfast all-around performance and graphics to every gamer and creator. It's time to gear up and get superpowers. It has a Dual Fan design that offers double the cooling performance.",
+      "keyFeatures": [
+        {
+          "keyName": "Model",
+          "value": "PRO MP242C"
+        },
+        {
+          "keyName": "Display",
+          "value": "VA, 75Hz, 1ms (GTG)"
+        }
+      ],
+      "individualRating": 4,
+      "averageRating": 4,
+      "reviews": 3
+    },
+    {
+      "id": 3,
+      "image": "https://www.startech.com.bd/image/cache/catalog/casing-cooler/revenger/prism-1/prism-1-01-500x500.webp",
+      "productName": "Revenger PRISM-1 120mm ARGB Case Fan",
+      "category": "Others",
+      "status": "In Stock",
+      "price": 6,
+      "description": "The Revenger PRISM-1 120mm ARGB Case Fan provides effective cooling. They provide a steady airflow of 30 CFM while operating at a fan speed of 1200RPM 10% to keep your system cool. Despite their powerful performance, they run quietly, producing 19.5 dBA of noise. The Revenger PRISM-1 120mm ARGB Case Fan has a 4-pin connector for easy installation, dimensions of 120 120 25mm, and a weight of 110g. These fans are dependable and convenient for enhancing your PC cooling system, with a power consumption of 3W 10% and a cable length of 40cm.",
+      "keyFeatures": [
+        {
+          "keyName": "Model",
+          "value": "PRISM-1"
+        },
+        {
+          "keyName": "MPN",
+          "value": "REV-PRISM-CC"
+        }
+      ],
+      "individualRating": 4,
+      "averageRating": 5,
+      "reviews": 4
+    },
+    {
+      "id": 4,
+      "image": "https://www.startech.com.bd/image/cache/catalog/monitor/uniview/mw3222-x/mw3222-x-500x500.webp",
+      "productName": "Uniview MW3222-X 22 LED FHD Monitor With Built-In Speakers",
+      "category": "Monitor",
+      "status": "In Stock",
+      "price": 87,
+      "description": "The Uniview MW3222-X 22 LED FHD Monitor is an excellent choice for anybody searching for a dependable and cost-effective monitor capable of handling both everyday work and entertainment. This monitor has a 21.5-inch LED-backlit display with a resolution of 1920x1080 and a contrast ratio of 3000:1, producing clear and brilliant pictures with rich colors and broad viewing angles. The display also offers a quick 7ms reaction time and a refresh rate of 60Hz, assuring smooth and lag-free performance while gaming, streaming video, and multitasking.",
+      "keyFeatures": [
+        {
+          "keyName": "Model",
+          "value": "MW3222-X"
+        },
+        {
+          "keyName": "Display",
+          "value": "TIPO, 60Hz, 7ms"
+        }
+      ],
+      "individualRating": 5,
+      "averageRating": 4,
+      "reviews": 4
+    },
+    {
+      "id": 5,
+      "image": "https://www.startech.com.bd/image/cache/catalog/graphics-card/colorful/geforce-rtx-3060-nb-duo-8gb-v/geforce-rtx-3060-nb-duo-8gb-v-01-200x200.webp",
+      "productName": "Colorful GeForce RTX 3060 NB DUO 8GB-V 8GB GDDR6 Graphics Card",
+      "category": "Others",
+      "status": "In Stock",
+      "price": 100,
+      "description": "The Colorful GeForce RTX 3060 NB DUO 8GB-V Graphics Card is powered by the award-winning NVIDIA Turing architecture, bringing superfast all-around performance and graphics to every gamer and creator. It's time to gear up and get superpowers. It has a Dual Fan design that offers double the cooling performance.",
+      "keyFeatures": [
+        {
+          "keyName": "Model",
+          "value": "GeForce RTX 3060 NB DUO 8GB-V"
+        },
+        {
+          "keyName": "Output",
+          "value": "3DP+HDMI"
+        }
+      ],
+      "individualRating": 4,
+      "averageRating": 4,
+      "reviews": 4
+    },
+    {
+      "id": 6,
+      "image": "https://www.startech.com.bd/image/cache/catalog/monitor/acer/eb192q/eb192q-01-500x500.jpg",
+      "productName": "Acer EB192Q 18.5 Inch HD Monitor",
+      "category": "Monitor",
+      "status": "In Stock",
+      "price": 90,
+      "description": "Acer EB192Q Monitor comes with 18.5 Inch (1366x768) HD Backlit LED LCD Display. The Acer EB192Q featured this Comfy View display which prevents reflections to provide greater eye comfort and also on this LED-backlit display with the fine details with this full HD resolution. Here used LED technology and uses less energy, delivering up to 68% power savings. The horizontal viewing angle is 95 degrees while the vertical viewing angle is 65 degrees, Colour Support: 16.7 Million Colours, Panel Technology: Twisted Nematic Film (TN Film). This Acer EB192Q Monitor featured 95 degrees Horizontal Viewing Angle, 65 degrees Vertical Viewing Angle, TN Panel Technology, and -5 to 25 degrees Tilt Angle.",
+      "keyFeatures": [
+        {
+          "keyName": "Model",
+          "value": "EB192Q"
+        },
+        {
+          "keyName": "Display",
+          "value": "TN, 60Hz, 5ms"
+        }
+      ],
+      "individualRating": 5,
+      "averageRating": 5,
+      "reviews": 5
+    },
+    {
+      "id": 7,
+      "image": "https://www.startech.com.bd/image/cache/catalog/processor/Intel/core-i5-13600k/Core%20i5%2013600K-01-500x500.webp",
+      "productName": "Intel 13th Gen Core i5 13600K Raptor Lake Processor",
+      "category": "Processor",
+      "status": "In Stock",
+      "price": 360,
+      "description": "The Colorful GeForce RTX 3060 NB DUO 8GB-V Graphics Card is powered by the award-winning NVIDIA Turing architecture, bringing superfast all-around performance and graphics to every gamer and creator. It's time to gear up and get superpowers. It has a Dual Fan design that offers double the cooling performance.",
+      "keyFeatures": [
+        {
+          "keyName": "Model",
+          "value": "PRO MP242C"
+        },
+        {
+          "keyName": "Display",
+          "value": "VA, 75Hz, 1ms (GTG)"
+        },
+        {
+          "keyName": "Cache",
+          "value": "24 MB, Socket: LGA1700"
+        },
+        {
+          "keyName": "Graphics",
+          "value": "Intel UHD Graphics 770"
+        }
+      ],
+      "individualRating": 4,
+      "averageRating": 3,
+      "reviews": 5
+    },
+    {
+      "id": 8,
+      "image": "https://www.startech.com.bd/image/cache/catalog/processor/Intel/i3-10100/i3-10100-500x500.jpg",
+      "productName": "Intel 10th Gen Core i3 10100F Processor",
+      "category": "Processor",
+      "status": "In Stock",
+      "price": 120,
+      "description": "This processor comes with a new breed that come without an integrated GPU, so a separate graphics card is required for its functionality. This new 10th gen Comet Lake microarchitecture is manufactured with the 14nm process that comes with four cores but lacks in HyperThreading. As this chip is updated to the latest BIOS revision, it nicely fits into any Intel 300-series motherboard.",
+      "keyFeatures": [
+        {
+          "keyName": "Model",
+          "value": "Intel Core i3 10100F"
+        },
+        {
+          "keyName": "Speed",
+          "value": "3.60 up to 4.30 GHz"
+        },
+        {
+          "keyName": "Cores",
+          "value": "4 & Threads- 8"
+        }
+      ],
+      "individualRating": 4,
+      "averageRating": 3,
+      "reviews": 4
+    },
+    {
+      "id": 9,
+      "image": "https://www.startech.com.bd/image/cache/catalog/processor/AMD/ryzen-3-4100/amd-ryzen-3-4100-01-500x500.jpg",
+      "productName": "AMD Ryzen 3 4100 Processor",
+      "category": "Processor",
+      "status": "In Stock",
+      "price": 130,
+      "description": "AMD Ryzen 3 4100 Processor has 4 processor cores, 8 threads, and an astonishingly efficient 45-65W TDP. This processor stands with a Base Clock of 3.8GHz and a Maximum Boost Clock of 4.0GHz. It has 256KB L1 Cache. 2MB L2 Cache, 4MB L3 Cache with AM4 Package, and TSMC 7nm FinFET CMOS. This AMD processor is built with PCIe 3.0 x8 and Wraith Spire Thermal Solution. This Processor provides DDR4 Up to 3200MHz memory with 2 memory channels.",
+      "keyFeatures": [
+        {
+          "keyName": "Model",
+          "value": "Ryzen 3 4100"
+        },
+        {
+          "keyName": "Speed",
+          "value": "3.8GHz; Up to 4.0GHz"
+        },
+        {
+          "keyName": "Cores",
+          "value": "4 & Threads- 8"
+        }
+      ],
+      "individualRating": 4,
+      "averageRating": 3,
+      "reviews": 4
+    },
+    {
+      "id": 10,
+      "image": "https://www.startech.com.bd/image/cache/catalog/motherboard/asus/h81m-k/h81m-k-01-500x500.jpg",
+      "productName": "Asus H81M-K 4th Gen Motherboard",
+      "category": "Motherboard",
+      "status": "In Stock",
+      "price": 360,
+      "description": "The Colorful GeForce RTX 3060 NB DUO 8GB-V Graphics Card is powered by the award-winning NVIDIA Turing architecture, bringing superfast all-around performance and graphics to every gamer and creator. It's time to gear up and get superpowers. It has a Dual Fan design that offers double the cooling performance.",
+      "keyFeatures": [
+        {
+          "keyName": "Model",
+          "value": "H81M-K"
+        },
+        {
+          "keyName": "Chipset",
+          "value": "Intel H81"
+        },
+        {
+          "keyName": "PCI",
+          "value": "1 x PCIe x16 2 x PCIe 2.0 x1"
+        },
+        {
+          "keyName": "Max Shared Memory",
+          "value": "1024 MB"
+        }
+      ],
+      "individualRating": 2,
+      "averageRating": 5,
+      "reviews": 5
+    },
+    {
+      "id": 11,
+      "image": "https://www.startech.com.bd/image/cache/catalog/motherboard/gigabyte/h410m-s2h/h410m-s2h-500x500.jpg",
+      "productName": "Gigabyte H410M S2H 10th Gen Micro ATX Motherboard",
+      "category": "Motherboard",
+      "status": "Out Of Stock",
+      "price": 87,
+      "description": "Realtek 8118 LAN is a high performance and friendly network chip for gaming players with automatic bandwidth allocation to ensure the highest network priority of the game or application. It can provide users the most comprehensive features and the fastest and smoothest Internet experience. GIGABYTE Motherboards are focused on delivering M.2 technology to enthusiasts who want to maximize their systemâ€™s potential.",
+      "keyFeatures": [
+        {
+          "keyName": "Model",
+          "value": "Gigabyte H410M S2H"
+        },
+        {
+          "keyName": "Chipset",
+          "value": "Intel H410 Express Chipset"
+        },
+        {
+          "keyName": "PCI",
+          "value": "1 x PCI Express x16 slot, running at x16"
+        },
+        {
+          "keyName": "Max Shared Memory",
+          "value": "512 MB"
+        }
+      ],
+      "individualRating": 4,
+      "averageRating": 3,
+      "reviews": 4
+    },
+    {
+      "id": 12,
+      "image": "https://www.startech.com.bd/image/cache/catalog/motherboard/gigabyte/ga-h110m-ds2/ga-h110m-ds2-1-500x500.jpg",
+      "productName": "Gigabyte GA-H110M-DS2 Micro ATX Motherboard",
+      "category": "Motherboard",
+      "status": "In Stock",
+      "price": 130,
+      "description": "AMD Ryzen 3 4100 Processor has 4 processor cores, 8 threads, and an astonishingly efficient 45-65W TDP. This processor stands with a Base Clock of 3.8GHz and a Maximum Boost Clock of 4.0GHz. It has 256KB L1 Cache. 2MB L2 Cache, 4MB L3 Cache with AM4 Package, and TSMC 7nm FinFET CMOS. This AMD processor is built with PCIe 3.0 x8 and Wraith Spire Thermal Solution. This Processor provides DDR4 Up to 3200MHz memory with 2 memory channels.",
+      "keyFeatures": [
+        {
+          "keyName": "Model",
+          "value": "GA-H110M-DS2"
+        },
+        {
+          "keyName": "Chipset",
+          "value": "Intel H110 Express"
+        },
+        {
+          "keyName": "PCI",
+          "value": "1 x PCI Express x16 slot, running at x16"
+        },
+        {
+          "keyName": "Max Shared Memory",
+          "value": "1024 MB"
+        }
+      ],
+      "individualRating": 4,
+      "averageRating": 3,
+      "reviews": 4
+    },
+    {
+      "id": 13,
+      "image": "https://www.startech.com.bd/image/cache/catalog/component/laptop-ram/team/4gb-2666mhz/4gb-1-500x500.jpg",
+      "productName": "TEAM ELITE 4GB 2666MHz Laptop RAM",
+      "category": "RAM",
+      "status": "In Stock",
+      "price": 130,
+      "description": "AMD Ryzen 3 4100 Processor has 4 processor cores, 8 threads, and an astonishingly efficient 45-65W TDP. This processor stands with a Base Clock of 3.8GHz and a Maximum Boost Clock of 4.0GHz. It has 256KB L1 Cache. 2MB L2 Cache, 4MB L3 Cache with AM4 Package, and TSMC 7nm FinFET CMOS. This AMD processor is built with PCIe 3.0 x8 and Wraith Spire Thermal Solution. This Processor provides DDR4 Up to 3200MHz memory with 2 memory channels.",
+      "keyFeatures": [
+        {
+          "keyName": "MPN",
+          "value": "TED44G2666C19-S01"
+        },
+        {
+          "keyName": "Model",
+          "value": "TEAM ELITE TED44G2666C19-S01 4GB"
+        },
+        {
+          "keyName": "Capacity",
+          "value": "4GB"
+        },
+        {
+          "keyName": "Warranty",
+          "value": "Lifetime warranty"
+        }
+      ],
+      "individualRating": 3,
+      "averageRating": 4,
+      "reviews": 5
+    },
+    {
+      "id": 14,
+      "image": "https://www.startech.com.bd/image/cache/catalog/ram/cosair/vengeance-8gb-ddr4-3200mhz/vengeance-8gb-ddr4-3200mhz-01-500x500.webp",
+      "productName": "CORSAIR VENGEANCE 8GB DDR4 3200MHz SODIMM Laptop RAM",
+      "category": "RAM",
+      "status": "In Stock",
+      "price": 40,
+      "description": "AMD Ryzen 3 4100 Processor has 4 processor cores, 8 threads, and an astonishingly efficient 45-65W TDP. This processor stands with a Base Clock of 3.8GHz and a Maximum Boost Clock of 4.0GHz. It has 256KB L1 Cache. 2MB L2 Cache, 4MB L3 Cache with AM4 Package, and TSMC 7nm FinFET CMOS. This AMD processor is built with PCIe 3.0 x8 and Wraith Spire Thermal Solution. This Processor provides DDR4 Up to 3200MHz memory with 2 memory channels.",
+      "keyFeatures": [
+        {
+          "keyName": "MPN",
+          "value": "CMSX8GX4M1A3200C22"
+        },
+        {
+          "keyName": "Model",
+          "value": "VENGEANCE"
+        },
+        {
+          "keyName": "Capacity",
+          "value": "8GB (1 x 8GB)"
+        },
+        {
+          "keyName": "Warranty",
+          "value": "Lifetime warranty"
+        }
+      ],
+      "individualRating": 2,
+      "averageRating": 5,
+      "reviews": 5
+    },
+    {
+      "id": 15,
+      "image": "https://www.startech.com.bd/image/cache/catalog/ram/pny/xlr8-gaming/xlr8-gaming-01-500x500.jpg",
+      "productName": "PNY XLR8 Gaming 8GB DDR4 3200MHz SODIMM Laptop RAM",
+      "category": "RAM",
+      "status": "In Stock",
+      "price": 60,
+      "description": "The PNY XLR8 Gaming 8GB DDR4 3200MHz Laptop RAM is an extreme performance DDR4 Memory designed for laptop gamers and performance enthusiasts. It offers quicker response times and better visuals for a better gaming experience. The XLR8 comes with XMP 2.0 Support. It provides easy overclocking to run at top speed for maximal performance. It delivers 3200MHz performance, and backward compatible with lower frequencies: 3000MHz, 2933MHz, 2666MHz, 2400MHz, 2133MHz. It has a CAS Latency of CL20 and an operating voltage of 1.2V. The PNY XLR8 Gaming Laptop RAM comes with a Lifetime Limited Warranty.",
+      "keyFeatures": [
+        {
+          "keyName": "MPN",
+          "value": "MN8GSD43200X"
+        },
+        {
+          "keyName": "Model",
+          "value": "XLR8 Gaming"
+        },
+        {
+          "keyName": "Capacity",
+          "value": "8GB"
+        },
+        {
+          "keyName": "Warranty",
+          "value": "Lifetime Limited Warranty"
+        }
+      ],
+      "individualRating": 2,
+      "averageRating": 5,
+      "reviews": 5
+    },
+    {
+      "id": 16,
+      "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/revenger/vp-350/vp-350-01-500x500.webp",
+      "productName": "Revenger VP 350 Watt Power Supply",
+      "category": "Power Supply Unit",
+      "status": "In Stock",
+      "price": 60,
+      "description": "The Revenger VP 350 Watt Power Supply is a high-quality power supply unit designed to power your computer components in a dependable and efficient manner. It can provide constant and stable power to your system with a continuous power output of 350 watts. The power supply has a 120 mm fan to assist disperse heat and keep the operating temperature low. This power supply is designed to work with a wide range of input voltages, ranging from 100VAC to 240VAC, and a frequency range of 47-63Hz.",
+      "keyFeatures": [
+        {
+          "keyName": "Model",
+          "value": "VP 350"
+        },
+        {
+          "keyName": "Fan",
+          "value": "120 mm"
+        },
+        {
+          "keyName": "Fan Size",
+          "value": "120mm"
+        }
+      ],
+      "individualRating": 4,
+      "averageRating": 4,
+      "reviews": 4
+    },
+    {
+      "id": 17,
+      "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/power-train/pt-p200b/pt-p200b-01-500x500.webp",
+      "productName": "Power Train PT-P200B 200W Power Supply",
+      "category": "Power Supply Unit",
+      "status": "In Stock",
+      "price": 15,
+      "description": "The POWER TRAIN PT-P200B is a reliable and efficient power supply option. It features a sleek SGCC 0.5MM design and operates at a voltage of 220V. With a power output of 200W, this power supply is capable of delivering ample power to your devices. It comes with multiple connectors, including 1 IDE, 2 SATA/550MM, P8(4+4)/450MM, and 24pin(20+4P)/400MM, allowing for compatibility with a wide range of devices. To ensure optimal performance and prevent overheating, the PT-P200B is equipped with a 12CM temperature control fan that effectively cools the unit during operation. With its robust construction and efficient cooling mechanism, the POWER TRAIN PT-P200B power supply is a reliable choice for powering your electronic devices.",
+      "keyFeatures": [
+        {
+          "keyName": "Model",
+          "value": "PT-P200B"
+        },
+        {
+          "keyName": "Continuous Power",
+          "value": "200W"
+        },
+        {
+          "keyName": "Fan Size",
+          "value": "12CM"
+        }
+      ],
+      "individualRating": 4,
+      "averageRating": 4,
+      "reviews": 4
+    },
+    {
+      "id": 18,
+      "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/gigabyte/p450b/p450b-500x500.jpg",
+      "productName": "Gigabyte P450B 450W 80 Plus Bronze Certified Power Supply",
+      "category": "Power Supply Unit",
+      "status": "In Stock",
+      "price": 39,
+      "description": "The POWER TRAIN PT-P200B is a reliable and efficient power supply option. It features a sleek SGCC 0.5MM design and operates at a voltage of 220V. With a power output of 200W, this power supply is capable of delivering ample power to your devices. It comes with multiple connectors, including 1 IDE, 2 SATA/550MM, P8(4+4)/450MM, and 24pin(20+4P)/400MM, allowing for compatibility with a wide range of devices. To ensure optimal performance and prevent overheating, the PT-P200B is equipped with a 12CM temperature control fan that effectively cools the unit during operation. With its robust construction and efficient cooling mechanism, the POWER TRAIN PT-P200B power supply is a reliable choice for powering your electronic devices.",
+      "keyFeatures": [
+        {
+          "keyName": "Model",
+          "value": "Gigabyte P450B"
+        },
+        {
+          "keyName": "Voltage",
+          "value": "100-240 Vac (full range)"
+        },
+        {
+          "keyName": "Fan Size",
+          "value": "120 mm Hydraulic Bearing (HYB) Fan"
+        }
+      ],
+      "individualRating": 4,
+      "averageRating": 4,
+      "reviews": 4
+    },
+    {
+      "id": 19,
+      "image": "https://www.startech.com.bd/image/cache/catalog/hdd/toshiba/p300-1tb/p300-1tb-1-500x500.jpg",
+      "productName": "Toshiba P300 1TB Desktop PC Internal Hard Drive",
+      "category": "Storage Device",
+      "status": "In Stock",
+      "price": 45,
+      "description": "Toshiba P300 Desktop PC Internal Hard Drive comes with 1TB Storage capacity, 3.5 Inch Form Factor, SATA 6Gb/s Interface and 7200 RPM. This HDD is built-in shock sensors and ramp loading technology. It is designed for everyday desktop computing. This HDD id featured with 4.17ms Seek Time with 64MB Buffer. In this HDD, Advanced Format technology helps to deliver drive efficiency and reliability. This latest Toshiba P300 Internal Hard Drive has 2 Years of warranty.",
+      "keyFeatures": [
+        {
+          "keyName": "Model",
+          "value": "P300"
+        },
+        {
+          "keyName": "MPN",
+          "value": "HDWD110UZSVA"
+        },
+        {
+          "keyName": "Storage",
+          "value": "1TB; RPM: 7200 rpm"
+        }
+      ],
+      "individualRating": 5,
+      "averageRating": 5,
+      "reviews": 5
+    },
+    {
+      "id": 20,
+      "image": "https://www.startech.com.bd/image/cache/catalog/Component/HDD/Seagate%20/seagate-1-500x500.jpg",
+      "productName": "Seagate Internal 1TB SATA Barracuda HDD",
+      "category": "Storage Device",
+      "status": "In Stock",
+      "price": 67,
+      "description": "Built on proven reliability and innovation, BarraCuda hard drives are available in a versatile mix of capacity and price point options to fit any budget. All hard drives in the BarraCuda family come equipped with Multi-Tier Caching Technology (MTC). MTC takes your PC to new performance levels so you can load applications and files faster than ever before.",
+      "keyFeatures": [
+        {
+          "keyName": "Model",
+          "value": "BarraCuda"
+        },
+        {
+          "keyName": "MPN",
+          "value": "ST1000DM010"
+        },
+        {
+          "keyName": "Storage",
+          "value": "1TB; RPM: 7200 rpm"
+        }
+      ],
+      "individualRating": 5,
+      "averageRating": 2,
+      "reviews": 3
+    },
+    {
+      "id": 21,
+      "image": "https://www.startech.com.bd/image/cache/catalog/hdd/western-digital/wd-blue/wd-blue-6tb-01-500x500.webp",
+      "productName": "Western Digital 6TB Blue 5400RPM Desktop HDD",
+      "category": "Storage Device",
+      "status": "In Stock",
+      "price": 140,
+      "description": "Built on proven reliability and innovation, BarraCuda hard drives are available in a versatile mix of capacity and price point options to fit any budget. All hard drives in the BarraCuda family come equipped with Multi-Tier Caching Technology (MTC). MTC takes your PC to new performance levels so you can load applications and files faster than ever before.",
+      "keyFeatures": [
+        {
+          "keyName": "Model",
+          "value": "WD Blue"
+        },
+        {
+          "keyName": "MPN",
+          "value": "WD60EZAZ"
+        },
+        {
+          "keyName": "Storage",
+          "value": "6TB; RPM: 5400 rpm"
+        }
+      ],
+      "individualRating": 5,
+      "averageRating": 2,
+      "reviews": 3
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "svgContent": "<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100'><circle cx='50' cy='50' r='40' /></svg>",
+      "name": "Monitor"
+    },
+    {
+      "id": 2,
+      "svgContent": "<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100'><circle cx='50' cy='50' r='40' /></svg>",
+      "name": "CPU"
+    },
+    {
+      "id": 3,
+      "svgContent": "<svg xmlns='http://www.w3.org/2000/svg' height='5rem' viewBox='0 0 576 512'><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d='M64 64C28.7 64 0 92.7 0 128v7.4c0 6.8 4.4 12.6 10.1 16.3C23.3 160.3 32 175.1 32 192s-8.7 31.7-21.9 40.3C4.4 236 0 241.8 0 248.6V320H576V248.6c0-6.8-4.4-12.6-10.1-16.3C552.7 223.7 544 208.9 544 192s8.7-31.7 21.9-40.3c5.7-3.7 10.1-9.5 10.1-16.3V128c0-35.3-28.7-64-64-64H64zM576 352H0v64c0 17.7 14.3 32 32 32H80V416c0-8.8 7.2-16 16-16s16 7.2 16 16v32h96V416c0-8.8 7.2-16 16-16s16 7.2 16 16v32h96V416c0-8.8 7.2-16 16-16s16 7.2 16 16v32h96V416c0-8.8 7.2-16 16-16s16 7.2 16 16v32h48c17.7 0 32-14.3 32-32V352zM192 160v64c0 17.7-14.3 32-32 32s-32-14.3-32-32V160c0-17.7 14.3-32 32-32s32 14.3 32 32zm128 0v64c0 17.7-14.3 32-32 32s-32-14.3-32-32V160c0-17.7 14.3-32 32-32s32 14.3 32 32zm128 0v64c0 17.7-14.3 32-32 32s-32-14.3-32-32V160c0-17.7 14.3-32 32-32s32 14.3 32 32z'/></svg>",
+      "name": "RAM"
+    },
+    {
+      "id": 4,
+      "svgContent": "<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100'><circle cx='50' cy='50' r='40' /></svg>",
+
+      "name": "Storage Device"
+    },
+    {
+      "id": 5,
+      "svgContent": "<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100'><circle cx='50' cy='50' r='40' /></svg>",
+      "name": "Motherboard"
+    },
+    {
+      "id": 6,
+      "svgContent": "<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100'><circle cx='50' cy='50' r='40' /></svg>",
+      "name": "Power Supply Unit"
+    },
+    {
+      "id": 7,
+      "svgContent": "<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100'><circle cx='50' cy='50' r='40' /></svg>",
+      "name": "Others"
+    }
+  ]
+}

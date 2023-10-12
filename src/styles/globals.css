@@ -1,0 +1,143 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Onest:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+
+/* -----------Custom tailwind classes-------- */
+@layer components {
+  .text500Globals {
+    @apply cursor-pointer  text-orange-500;
+  }
+  .linkGlobals {
+    @apply cursor-pointer  hover:text-indigo-500;
+  }
+  .button {
+    @apply cursor-pointer rounded text-center p-2 text-[1rem] text-white bg-orange-500 hover:bg-orange-400;
+  }
+  .button-green {
+    @apply cursor-pointer rounded text-center p-2 text-sm  text-white  bg-gradient-to-b from-green-500 to-green-800 border-green-500  focus:outline-none focus:ring-2 focus:ring-green-500 active:from-green-800;
+  }
+  .button-red {
+    @apply cursor-pointer rounded text-center p-2 text-sm  text-white  bg-gradient-to-b from-red-500 to-red-800 border-red-500  focus:outline-none focus:ring-2 focus:ring-red-500 active:from-red-800;
+  }
+
+  .dashboard-link {
+    @apply link rounded border px-4 py-1 hover:bg-blue-light hover:text-white transition-all duration-200 text-sm;
+  }
+}
+
+/* -----------Html Body custom css------------ */
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+  scroll-behavior: smooth;
+}
+
+.heightFix,
+.heightFixAdmin {
+  min-height: calc(100vh - 150px);
+  height: 100%;
+}
+
+.loader svg {
+  width: 150px;
+  height: 150px;
+}
+
+/* -----------hide scrollbar------------ */
+.hideScrollBar::-webkit-scrollbar {
+  display: none;
+}
+.table_col_img {
+  min-width: 40px;
+}
+
+.table_col {
+  min-width: 120px;
+}
+
+.hideScrollBar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* -----------glassmorphism----------- */
+.glassmorphism {
+  background-color: rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow to the bottom */
+}
+
+/* -----------Layout------------ */
+.layout {
+  min-width: 320px;
+}
+.sideBarMenu {
+  min-width: 250px;
+}
+
+.layout .Toastify__progress-bar--default {
+  background: #10b981;
+  background: linear-gradient(#10b981, #065f46) !important;
+}
+
+/* -----------responsive------------ */
+@media only screen and (max-width: 780px) {
+  .loader svg {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .heightFix {
+    min-height: calc(100vh - 200px);
+    height: 100%;
+  }
+}
+
+/* -----------element animation------------ */
+@keyframes gradient-move {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.bg-gradient-animate {
+  animation: gradient-move 3s linear infinite;
+  background-size: 200% 100%;
+  transition: background 0.3s ease;
+}
+
+.hover\:animate-none:hover {
+  animation: none;
+  background-color: #3b82f6;
+}
+
+/*-------------- scrollbar ----------------- */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #ff8d40;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-track:hover {
+  background-color: #f0f0f0;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #ff9f5f;
+}
+/* scrollbar  end */

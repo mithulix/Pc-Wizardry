@@ -1,0 +1,36 @@
+.brandName {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  padding-left: 0.5rem /* 8px */;
+  padding-right: 0.5rem /* 8px */;
+  color: #f97316;
+  font-family: "Kaushan Script, cursive";
+}
+
+.gradientButton {
+  background: linear-gradient(50deg, #1246ff, #87c5ff, #401eff);
+  background-size: 200% 200%;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  animation: gradientAnimation 5s ease-in-out infinite;
+}
+
+.gradientButton:hover {
+  background: linear-gradient(50deg, #1246ff, #87c5ff, #401eff);
+  animation: gradientAnimation 5s ease-in-out infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
