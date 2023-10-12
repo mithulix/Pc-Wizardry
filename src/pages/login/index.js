@@ -11,8 +11,12 @@ const LoginPage = () => {
             <div>
                 <h3>LOGIN</h3>
                 <div className=" flex  justify-center">
-                    <GoogleOutlined onClick={()=>signIn("google")}/>
-                    <GithubOutlined  onClick={()=>signIn("github")}/>
+                    <GoogleOutlined onClick={() => signIn("google", {
+                        callbackUrl: "http://localhost:3000/",
+                    })} />
+                    <GithubOutlined onClick={() => signIn("github", {
+                        callbackUrl: "http://localhost:3000/",
+                    })} />
                 </div>
             </div>
         </div>

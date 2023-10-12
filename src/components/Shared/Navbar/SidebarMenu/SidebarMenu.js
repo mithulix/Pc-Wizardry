@@ -17,7 +17,7 @@ import Skeleton from "react-loading-skeleton";
 import onClickOutside from "react-onclickoutside";
 import brandIcon from "../../../../../public/images/brandIcon.svg";
 import styles from "@/styles/Navbar.module.css";
-import {FaUserCircle } from "react-icons/fa";
+import { FaUserCircle } from "react-icons/fa";
 
 function SideBarMenu({ closeSideBar }) {
   // State to manage dropdown visibility
@@ -35,7 +35,7 @@ function SideBarMenu({ closeSideBar }) {
   };
 
   // Get the user image or use a default one
-  const userImage = session?.user?.image ||  <FaUserCircle />;
+  const userImage = session?.user?.image || <FaUserCircle />;
 
   return (
     <div className="relative h-full w-full sideBarMenu bg-white px-8 py-6 font-medium md:hidden">
@@ -77,12 +77,11 @@ function SideBarMenu({ closeSideBar }) {
             )}
           </span>
         ) : (
-          <span
-            className="linkGlobals text500Globals text-lg"
-            onClick={() => signIn()}
-          >
-            Login
-          </span>
+          <Link href="/login">
+            <button className="linkGlobals text500Globals">
+              Login
+            </button>
+          </Link>
         )}
       </div>
       <div className="gap-4 flex flex-col">
