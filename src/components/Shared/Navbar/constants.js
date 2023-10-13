@@ -9,12 +9,12 @@ export const NavbarCategories = [
   {
     id: 1,
     name: "CPU/Processor",
-    path: "/categories/processor",
+    path: "/categories/Processor",
   },
   {
     id: 2,
     name: "Motherboard",
-    path: "/categories/motherboard",
+    path: "/categories/Motherboard",
   },
   {
     id: 3,
@@ -34,11 +34,11 @@ export const NavbarCategories = [
   {
     id: 6,
     name: "Monitor",
-    path: "/categories/monitor",
+    path: "/categories/Monitor",
   },
   {
     id: 7,
     name: "Others",
-    path: "/categories/others",
+    path: "/categories/Others",
   },
 ];

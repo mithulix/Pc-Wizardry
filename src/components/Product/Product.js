@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { AiFillStar } from "react-icons/ai";
-import { Rate } from "antd";
 
 function Product({
   id,

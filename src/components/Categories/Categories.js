@@ -11,19 +11,13 @@ const Categories = ({ categories }) => {
       </div>
 
       {/* Section: Categories List */}
-      <div className="flex flex-wrap justify-center sm:justify-start sm:mb-12 gap-4 mx-auto text-sm font-medium">
+      <div className="flex flex-wrap justify-center sm:justify-start sm:mb-12 gap-4 mx-auto">
         {categories?.map((category, i) => (
           <div
             key={`category-${i}`}
-            className={`py-2 px-4 sm:px-6 bg-white text-center whitespace-nowrap rounded text-500Globals linkGlobals shadow-sm sm:shadow`}
+            className={`p-[2rem] text-xl border font-medium sm:px-6 bg-white text-center whitespace-nowrap rounded text500Globals linkGlobals shadow-sm sm:shadow`}
           >
             <Link href={`/categories/${category?.name}`}>
-              <div className="icon-container">
-                <span
-                  className="w-16 h-16"
-                  dangerouslySetInnerHTML={{ __html: category?.svgContent }}
-                ></span>
-              </div>
               <span> {category?.name}</span>
             </Link>
           </div>

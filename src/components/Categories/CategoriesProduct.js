@@ -4,7 +4,7 @@ function CategoriesProduct({ products, categoryName }) {
   return (
     <div className="w-full pb-20 px-6" id="products-feed">
       {/* Section: Category Name */}
-      <h2 className="text-center capitalize text-2xl font-semibold mb-10">
+      <h2 className="text-center capitalize text-xl font-semibold mb-10">
         {categoryName}
       </h2>
 

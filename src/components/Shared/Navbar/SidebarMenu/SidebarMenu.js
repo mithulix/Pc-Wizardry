@@ -109,18 +109,6 @@ function SideBarMenu({ closeSideBar }) {
             <AiFillCaretRight className="w-5 mr-6" /> Categories
           </span>
         </div>
-        {session && (
-          <div>
-            <span
-              onClick={() => {
-                signOut();
-              }}
-              className="linkGlobals text500Globals inline-flex"
-            >
-              <FaArrowCircleLeft className="w-5 mr-6" /> Logout
-            </span>
-          </div>
-        )}
       </div>
       <div className="absolute top-2 right-2">
         <FaXmark className="w-7" onClick={closeSideBar} />
