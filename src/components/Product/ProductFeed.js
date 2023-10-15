@@ -15,7 +15,7 @@ function ProductFeed({ products, categories }) {
 
   // If products have loaded and there are products to display, render product cards
   if (!productsIsLoading && productsData?.length > 0) {
-    content = productsData?.slice(0, 8)?.map(
+    content = productsData?.map(
       ({
         id,
         productName,

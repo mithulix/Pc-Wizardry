@@ -15,17 +15,7 @@
     @apply cursor-pointer  hover:text-indigo-500;
   }
   .button {
-    @apply cursor-pointer rounded text-center p-2 text-[1rem] text-white bg-orange-500 hover:bg-orange-400;
-  }
-  .button-green {
-    @apply cursor-pointer rounded text-center p-2 text-sm  text-white  bg-gradient-to-b from-green-500 to-green-800 border-green-500  focus:outline-none focus:ring-2 focus:ring-green-500 active:from-green-800;
-  }
-  .button-red {
-    @apply cursor-pointer rounded text-center p-2 text-sm  text-white  bg-gradient-to-b from-red-500 to-red-800 border-red-500  focus:outline-none focus:ring-2 focus:ring-red-500 active:from-red-800;
-  }
-
-  .dashboard-link {
-    @apply link rounded border px-4 py-1 hover:bg-blue-light hover:text-white transition-all duration-200 text-sm;
+    @apply cursor-pointer rounded text-center p-1 text-white bg-orange-500 hover:bg-orange-400;
   }
 }
 
@@ -33,6 +23,7 @@
 html,
 body {
   scroll-behavior: smooth;
+  font-family: 'Onset', sans-serif;
 }
 
 * {

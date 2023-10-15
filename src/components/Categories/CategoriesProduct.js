@@ -19,7 +19,7 @@ function CategoriesProduct({ products, categoryName }) {
             category,
             image,
             status,
-            reviews,
+            averageRating,
           }) => (
             // Individual Product Card
             <Product
@@ -31,7 +31,7 @@ function CategoriesProduct({ products, categoryName }) {
               category={category}
               image={image}
               status={status}
-              reviews={reviews}
+              averageRating={averageRating}
             />
           )
         )}

@@ -6,7 +6,7 @@ export const apiSlice = createApi({
   reducerPath: "api",
 
   baseQuery: fetchBaseQuery({
-    baseUrl: "http://localhost:5000/",
+    baseUrl: "https://pc-builder-assignment-server.vercel.app/",
   }),
   tagTypes: ["reviews", "addProduct"],
 

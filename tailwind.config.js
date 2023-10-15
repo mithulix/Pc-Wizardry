@@ -7,7 +7,10 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
+      Onset: ['Onest', 'sans-serif'],
       Poppins: ["Poppins", "sans-serif"],
+      Montserrat: ['Montserrat', 'sans-serif'],
+      Sans: ['Raleway', 'Quicksand', 'sans-serif'],
     },
     extend: {
       colors: {

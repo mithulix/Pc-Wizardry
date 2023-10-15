@@ -23,9 +23,7 @@ function BuildProduct({
 
   return (
     <div
-      className={`block bg-white py-6 sm:grid sm:grid-cols-5 ${
-        border ? "border-b border-gray-300" : ""
-      }`}
+      className={`block bg-white sm:grid sm:grid-cols-5`}
     >
       {/* Product image */}
       <div className="text-center sm:text-left my-auto">
@@ -42,7 +40,7 @@ function BuildProduct({
 
       {/* Product details */}
       <div className="col-span-3 sm:p-4 mt-2 mb-6 sm:my-0">
-        <h4 className="mb-3 link lg:text-xl md:text-lg text-base capitalize font-medium">
+        <h4 className="linkGlobals mb-2 capitalize font-medium">
           {/* Link to the product details page */}
           <Link href={`/product-details/${id}`}>{productName}</Link>
         </h4>
@@ -55,7 +53,7 @@ function BuildProduct({
       {/* Remove item button */}
       <div className="flex flex-col space-y-4 my-auto justify-self-end">
         <button
-          className={`button bg-red-600 py-2 lg:px-10 md:px-8 px-6 flex justify-center items-center`}
+          className={`button bg-red-500`}
           onClick={removeItemFromBuild}
         >
           {/* X icon for item removal */}

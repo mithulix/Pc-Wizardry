@@ -7,7 +7,8 @@ import { addComponent } from "@/redux/features/pcbuild/pcbuildSlice";
 import { useSession } from "next-auth/react";
 import { Rate } from "antd";
 import { useGetReviewQuery } from "../../redux/features/product/productApi";
-import Link from "next/link";
+import { useState } from "react";
+import { Button, Modal } from "antd";
 
 function ProductDetails({
   id,
@@ -29,10 +30,22 @@ function ProductDetails({
   });
   const reviewsData = reviews?.data?.reviews;
 
+  const [isModalVisible, setIsModalVisible] = useState(false);
+
+  // Function to open the modal
+  const showModal = () => {
+    setIsModalVisible(true);
+  };
+
+  // Function to close the modal
+  const handleCancel = () => {
+    setIsModalVisible(false);
+  };
+
   // Function to add the product to a build
   const addItemToBuild = () => {
     if (!session?.user?.email) {
-      alert("Please Sign In to add items to your build");
+      showModal();
     } else {
       dispatch(
         addComponent({
@@ -135,14 +148,12 @@ function ProductDetails({
 
                   <div className="mt-4">
                     <span className="linkGlobals text500Globals">
-                      <Link href="/login">
-                        <button
-                          onClick={addItemToBuild}
-                          className="button px-4 flex justify-center items-center">
-                          Add to Builder
-                          <FaArrowRight className="ml-2 w-3" />
-                        </button>
-                      </Link>
+                      <button
+                        onClick={addItemToBuild}
+                        className="button px-4 flex justify-center items-center">
+                        Add to Build
+                        <FaArrowRight className="ml-2 w-3" />
+                      </button>
                     </span>
                   </div>
                 </div>
@@ -183,6 +194,21 @@ function ProductDetails({
           </div>
         </div>
       </div>
+      <Modal
+        title="Sign In Required"
+        visible={isModalVisible}
+        onCancel={handleCancel}
+        footer={[
+          <Button key="cancel" onClick={handleCancel}>
+            Cancel
+          </Button>,
+          <Button key="signin" className="linkGlobals text500Globals" onClick={() => router.push("/api/auth/signin")}>
+            Sign In
+          </Button>,
+        ]}
+      >
+        Please Sign In to add items to your build.
+      </Modal>
     </div>
   );
 };

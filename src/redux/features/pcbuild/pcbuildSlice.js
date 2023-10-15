@@ -67,7 +67,6 @@ const pcbuildSlice = createSlice({
 
       // Check if the component with the same ID is already in the state
       if (state[category]?.id !== id) {
-        // If a component of the same category is already added, remove it
         if (state[category]?.name && state[category]?.price) {
           state.total -= state[category].price;
           state.qty -= 1;

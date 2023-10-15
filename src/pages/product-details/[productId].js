@@ -33,7 +33,7 @@ export default ProductInfo;
 // This function generates paths for pre-rendering product pages
 export const getStaticPaths = async () => {
   const res = await fetch(
-    "http://localhost:5000/products"
+    "https://pc-builder-assignment-server.vercel.app/products"
   );
   const products = await res.json();
   // Create an array of path objects, each with a productId parameter
@@ -51,7 +51,7 @@ export const getStaticPaths = async () => {
 export const getStaticProps = async (context) => {
   try {
     const res = await fetch(
-      `http://localhost:5000/products/${context.params.productId}`
+      `https://pc-builder-assignment-server.vercel.app/products/${context.params.productId}`
     );
     const product = await res.json();
 

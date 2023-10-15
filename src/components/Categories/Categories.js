@@ -15,7 +15,7 @@ const Categories = ({ categories }) => {
         {categories?.map((category, i) => (
           <div
             key={`category-${i}`}
-            className={`p-[2rem] text-xl border font-medium sm:px-6 bg-white text-center whitespace-nowrap rounded text500Globals linkGlobals shadow-sm sm:shadow`}
+            className={`p-[1rem] text-xl border font-medium sm:px-6 bg-white text-center whitespace-nowrap rounded  linkGlobals shadow-sm sm:shadow`}
           >
             <Link href={`/categories/${category?.name}`}>
               <span> {category?.name}</span>

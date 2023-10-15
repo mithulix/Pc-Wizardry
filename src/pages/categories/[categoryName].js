@@ -13,24 +13,23 @@ const Category = ({ products, categoryName }) => {
 export default Category;
 
 export const getStaticPaths = async () => {
-  const res = await fetch("http://localhost:5000/products");
+  const res = await fetch(
+    "https://pc-builder-assignment-server.vercel.app/products"
+  );
   const products = await res.json();
-
-  // Generate dynamic routes for categories based on available data
   const paths = products.map((product) => ({
     params: { categoryName: product.category },
   }));
-
   return {
     paths,
-    fallback: true, // When set to true, allows handling of unknown routes
+    fallback: true,
   };
 };
 
 export const getStaticProps = async (context) => {
   try {
     const res = await fetch(
-      `http://localhost:5000/products?category=${
+      `https://pc-builder-assignment-server.vercel.app/products?category=${
         context.params.categoryName
       }`
     );

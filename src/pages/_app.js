@@ -6,16 +6,16 @@ import "@/styles/globals.css";
 
 export default function App({
   Component,
-  pageProps: { session, ...pageProps }, // Destructure session from pageProps
+  pageProps: { session, ...pageProps },
 }) {
   const { store } = wrapper.useWrappedStore(pageProps);
 
   return (
     <SessionProvider session={session}>
-      <Provider store={store}> {/* Provide the Redux store */}
+      <Provider store={store}>
         <div className="font-['Onset'] text-black">
-          <Layout> {/* Wrap the main content in your custom Layout component */}
-            <Component {...pageProps} /> {/* Render the specific page or component */}
+          <Layout>
+            <Component {...pageProps} />
           </Layout>
         </div>
       </Provider>

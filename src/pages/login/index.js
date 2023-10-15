@@ -1,45 +1,45 @@
 import { GoogleOutlined, GithubOutlined } from "@ant-design/icons";
-import { signIn } from "next-auth/react";
 import Head from "next/head";
-import { useRouter } from "next/router";
+import Image from "next/image";
+import brandIcon from "../../../public/images/brandIcon.svg";
+import { signIn } from "next-auth/react";
 
 const LoginPage = () => {
     return (
-        <div className="sm:mt-[5rem] flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center">
             <Head>
-                <title>Next Login</title>
+                <title>Login to PC Builder</title>
             </Head>
-            <div className="bg-white p-4 shadow-md sm:min-w-[400px]  rounded-lg border">
-                <h3 className="text-2xl font-semibold mb-4 text-center">Login</h3>
-                <div className="flex flex-col gap-4 p-10 ">
+            <div className="p-20 m-5 bg-white shadow-lg rounded-xl">
+                <div className="flex items-center justify-center pb-4">
+                    <Image
+                        width={80}
+                        height={80}
+                        src={brandIcon}
+                        alt="Brand Icon"
+                    />
+                </div>
+                <h3 className="text-3xl text-gray-700 pb-10 font-bold">
+                    PC Builder Login
+                </h3>
+                <div className="flex flex-col gap-4">
                     <div
                         onClick={() =>
-                            signIn("google", {
-                                callbackUrl: "http://localhost:3000/",
-                            })
+                            signIn("google", { callbackUrl: "/" })
                         }
-                        className="flex text-emerald-500 hover:text-emerald-700 cursor-pointer  p-2 justify-center items-center rounded-lg hover:shadow-md border transition duration-300">
-                        <span className="text-2xl px-3">
-                            Login with Google
-                        </span>
-                        <button>
-                            <GoogleOutlined className="text-2xl px-3 flex justify-center items-center" />
-                        </button>
+                        className="flex items-center linkGlobals gap-4 border-2 rounded-full px-4 py-2 cursor-pointer"
+                    >
+                        <GoogleOutlined />
+                        <span>Login with Google</span>
                     </div>
-
                     <div
                         onClick={() =>
-                            signIn("github", {
-                                callbackUrl: "http://localhost:3000/",
-                            })
+                            signIn("github", { callbackUrl: "/" })
                         }
-                        className="flex text-indigo-500 hover:text-indigo-700 cursor-pointer p-2 justify-center items-center rounded-lg hover:shadow-md border transition duration-300">
-                        <span className="text-2xl px-3">
-                        Login with Github
-                        </span>
-                        <button>
-                            <GithubOutlined className="text-2xl px-3 flex justify-center items-center" />
-                        </button>
+                        className="flex items-center linkGlobals gap-4 border-2 rounded-full px-4 py-2 cursor-pointer"
+                    >
+                        <GithubOutlined />
+                        <span>Login with GitHub</span>
                     </div>
                 </div>
             </div>
