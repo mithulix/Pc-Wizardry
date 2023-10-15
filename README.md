@@ -10,6 +10,13 @@ You can access the live version of the PC Wizardry website :
 **Repository:** [PC Wizardry Repo](https://github.com/mithulix/Pc-Wizardry)
 
 
+## Features
+ - Featured category
+ - Featured product
+ - Product Details
+ - PC Building page
+ - Build auth system to protect routed
+
 The  website is built using Next.js, a popular React framework for building web applications. We have used various libraries and tools to enhance the user experience, including:
 
 - **Tailwind CSS**: A utility-first CSS framework that allows for easy styling and responsiveness.
