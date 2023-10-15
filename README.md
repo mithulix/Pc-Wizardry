@@ -1,19 +1,16 @@
-# PC Builder Website
+# PC Wizardry Website
 
-Welcome to the PC Builder website, where you can create and customize your dream PC configuration. This website provides a user-friendly interface to browse and select components for your PC build. It also calculates your PC's GPA (Gaming Performance Assessment) based on your selected components.
+Welcome to the PC Wizardry website, where you can create and customize your dream PC configuration. This website provides a user-friendly interface to browse and select components for your PC build. It also calculates your PC's GPA (Gaming Performance Assessment) based on your selected components.
 
 ## Live Website
 
-You can access the live version of the PC Builder website :
-**Live Link:** [PC Builder](#insert_live_link)
+You can access the live version of the PC Wizardry website :
+**Live Link:** [PC Wizardry](https://pc-wizardry.vercel.app/)
 
-**Frontend Repository:** [PC Builder Frontend](#insert_frontend_link)
+**Repository:** [PC Wizardry Repo](https://github.com/mithulix/Pc-Wizardry)
 
-**Backend Repository:** [PC Builder Backend](#insert_backend_link)
 
-## Frontend
-
-The frontend of this website is built using Next.js, a popular React framework for building web applications. We have used various libraries and tools to enhance the user experience, including:
+The  website is built using Next.js, a popular React framework for building web applications. We have used various libraries and tools to enhance the user experience, including:
 
 - **Tailwind CSS**: A utility-first CSS framework that allows for easy styling and responsiveness.
 - **Ant Design (antd)**: A comprehensive UI component library for React, ensuring a polished and user-friendly design.
@@ -23,9 +20,6 @@ The frontend of this website is built using Next.js, a popular React framework f
 - **React Loading Skeleton**: A skeleton loader component for smooth content loading.
 - **Redux Toolkit**: A toolkit for efficient state management and state updates.
 
-## Backend
-
-The backend of this website is powered by a JSON server. This server simulates a REST API, providing data for products and user reviews. The server is used for development and testing purposes.
 
 ## How to Use
 
@@ -33,7 +27,7 @@ The backend of this website is powered by a JSON server. This server simulates a
 
 2. Click on the product's image or name to access further details, including key features, price, and user reviews.
 
-3. Use the "Add to Builder" button to add a product to your PC configuration. The selected components will be displayed in the PC builder section, along with the total cost and individual component details.
+3. Use the "Add to Wizardry" button to add a product to your PC configuration. The selected components will be displayed in the PC Wizardry section, along with the total cost and individual component details.
 
 4. The website calculates the GPA (Gaming Performance Assessment) of your PC build based on your selected components. This metric provides an estimate of your PC's gaming capabilities.
 
@@ -55,6 +49,6 @@ To set up the development environment for this project, follow these steps:
 
 We'd love to hear your feedback and suggestions. Feel free to report any issues, make feature requests, or contribute to this project by submitting pull requests.
 
-Enjoy building your dream PC configuration with PC Builder!
+Enjoy building your dream PC configuration with PC Wizardry!
 
-Thank you for visiting the PC Builder website!
+Thank you for visiting the PC Wizardry website!
