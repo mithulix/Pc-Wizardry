@@ -11,11 +11,12 @@ You can access the live version of the PC Wizardry website :
 
 
 ## Features
+ - Navbar with Searchbar
  - Featured category
  - Featured product
  - Product Details
  - PC Building page
- - Build auth system to protect routed
+ - Auth system = {Github, Google}
 
 The  website is built using Next.js, a popular React framework for building web applications. We have used various libraries and tools to enhance the user experience, including:
 
