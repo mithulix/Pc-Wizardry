@@ -53,7 +53,7 @@ function BuildProduct({
       {/* Remove item button */}
       <div className="flex flex-col space-y-4 my-auto justify-self-end">
         <button
-          className={`button bg-red-500`}
+          className={` bg-red-500 hover:bg-red-400 text-white rounded p-1`}
           onClick={removeItemFromBuild}
         >
           {/* X icon for item removal */}

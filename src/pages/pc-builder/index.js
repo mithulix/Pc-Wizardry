@@ -91,7 +91,7 @@ const PcBuilder = ({ categories }) => {
             <div className="flex  items-center justify-center px-6 lg:py-10 sm:py-6 py-4">
               <div className="text-center md:max-w-none sm:w-auto mx-auto max-w-xs w-4/5">
                 <div className="lg:text-2xl text-gray-700 text-xl font-medium mt-4 flex flex-col justify-center items-center">
-                  <FaRegSadTear className="w-20 h-20 my-6 text-gray-400"/>
+                  <FaRegSadTear className="w-20 h-20 my-6 text-gray-400" />
                   <span>your Build Is Empty.</span>
                 </div>
               </div>
@@ -109,7 +109,7 @@ const PcBuilder = ({ categories }) => {
               <button
                 role="link"
                 className="bg-blue-500 rounded text-white mt-4 px-4 flex items-center justify-start py-2 cursor-pointer"
-                onClick={handleCompleteBuild} // Call the combined function
+                onClick={handleCompleteBuild}
               >
                 <span className="ml-2">Complete Build</span>
                 <FaArrowRight className="sm:w-6 w-5" />
@@ -140,8 +140,10 @@ export const getServerSideProps = wrapper.getServerSideProps(
     } catch (error) {
       console.log(error);
       return {
-        notFound: true,
+        notFound: true, 
       };
     }
   }
 );
+
+
