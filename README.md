@@ -1,7 +1,6 @@
 # PC Wizardry Website
 
-Welcome to the PC Wizardry website, where you can create and customize your dream PC configuration. This website provides a user-friendly interface to browse and select components for your PC build. It also calculates your PC's GPA (Gaming Performance Assessment) based on your selected components.
-
+Welcome to the PC Wizardry website, where you can create and customize your dream PC configuration. This website provides a user-friendly interface to browse and select components for your PC build. 
 ## Live Website
 
 You can access the live version of the PC Wizardry website :
